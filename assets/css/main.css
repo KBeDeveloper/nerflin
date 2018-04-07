@@ -1,0 +1,124 @@
+.navbar{
+    background-color: #141414;
+}
+
+#home-item{
+    color: #fff;
+}
+
+#add-item{
+    color: gray;
+}
+
+.form-control{
+    background-color: #141414;
+    border: 0ch;
+}
+
+.background{
+    background-color: #17141f;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    height: 600px;
+    color: #fff;
+}
+
+.traslucent-col{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.9) 100%);
+    min-height: 600px;
+    height: 600px;
+}
+
+body{
+    background-color: #141414;
+    color: #fff;
+}
+
+.btn-space{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+.btn-space-left{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.btn-space-right{
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+p{
+    margin-top: 10px;
+}
+
+#footer-top{
+    background-color: #000;
+}
+
+#footer-bottom{
+    background-color: #141414;
+}
+
+
+/*search box*/ 
+.custom-search {
+	position: absolute;
+	right: 20px;
+	top: 1px;
+}
+#searchBox {
+	background-color: transparent;
+	background-position: 5px center;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	border: none;
+	cursor: pointer;
+	height: 37px;
+    margin: 3px 0;
+	padding: 0 0 0 34px;
+	position: relative;
+	-webkit-transition: width 400ms ease, background 400ms ease;
+	transition:         width 400ms ease, background 400ms ease;
+    width: 0;  
+}
+#searchBox:focus {
+	background-color: #141414;
+	cursor: text;
+	outline: 0;
+    width: 180px;
+    color: #fff;
+}
+.search-btn {
+    display: none;
+}
+input[type="search"]#searchBox {
+    -webkit-appearance: textfield;
+}
+/**/
+
+#movieSet{
+    display: none;
+}
+
+.holder{
+    width: auto;
+    display: block;
+}
+
+.holder img{
+    width: auto;
+    height: auto;
+    max-height: 121px;   
+}
+
+.main-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
