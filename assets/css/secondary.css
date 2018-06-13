@@ -1,0 +1,11 @@
+body{
+	background-color: #141414;
+}
+
+.form-control .form-group{
+	color:gray;
+}
+
+#user, #password{
+	background-color:transparent;
+}
